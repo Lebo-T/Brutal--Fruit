@@ -17,11 +17,12 @@ user experience, user may control what is added solely using the CMS.
 carousel banners - Owl carousel module was used to achieve simple scroll functionality on main banner, with a separate image uploaded for
 mobile version.
 
-Cards section (incomplete) - fields were added within the landing page for the cards section, to achieve the tiles with different height,
-the intention was to use masonary functionality which is available on bootstrap and to alter twig files with classes and layout.
+Cards section - fields were added within the landing page for the cards section, to achieve the tiles with different height,
+the intention was to use masonary functionality using a module, I resorted to using a less complex solution using CSS grids and manipulating the htm.twig file
+to function as intended.
 
 Contact Form - webform module was installed and made use of to achieve the appearance and functionality of the webform. Webform UI
 module was also installed to make it much simpler for the user to edit fields within the form.
 
-Slider component (incomplete) - Slick module installed with the intentions to be used for this section as it provides simple
-functionality and is user friendly for content editors
+Slider cards component - Owl carousel module used for this section with view implentation to show paragraph, this works as intended in preview mode, however,
+displays card components one below the other (this may be a bug)
